@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanaj K | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+header{
+    background:#0a2c5f;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+}
+
+header h1{
+    font-size:30px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    background:white;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h2{
+    font-size:42px;
+    color:#0a2c5f;
+    margin-bottom:10px;
+}
+
+.hero-text h3{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:#0a2c5f;
+    color:#fff;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#14468f;
+}
+
+.profile{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background:#d9e4f7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:80px;
+    color:#0a2c5f;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 8%;
+}
+
+.title{
+    font-size:30px;
+    color:#0a2c5f;
+    margin-bottom:25px;
+    border-left:5px solid #0a2c5f;
+    padding-left:12px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#0a2c5f;
+    margin-bottom:12px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    background:#0a2c5f;
+    color:white;
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:15px;
+}
+
+.contact{
+    background:#0a2c5f;
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    margin:12px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#081f44;
+    color:white;
+    text-align:center;
+    padding:18px;
+}
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.profile{
+    margin-bottom:30px;
+}
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>SANAJ K</h1>
+
+<nav>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="about">
+
+<div class="hero-text">
+
+<h2>Hello, I'm Sanaj K</h2>
+
+<h3>Economics Student | Data Science Enthusiast</h3>
+
+<p>
+Motivated and dependable student passionate about Data Analytics,
+Artificial Intelligence, and Machine Learning. I enjoy solving real-world
+problems through data and continuously improving my technical skills.
+</p>
+
+<a href="#contact" class="btn">Hire Me</a>
+
+</div>
+
+<div class="profile">
+SK
+</div>
+
+</section>
+
+<section id="education">
+
+<h2 class="title">Education</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Bachelor of Arts in Economics</h3>
+<p><b>MES College, Vadakara</b></p>
+<p>University of Calicut</p>
+<p>Expected Graduation: <b>2026</b></p>
+</div>
+
+<div class="card">
+<h3>PG Diploma in Data Science</h3>
+<p>Westberg International</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<span class="skill">Python</span>
+<span class="skill">SQL</span>
+<span class="skill">Power BI</span>
+<span class="skill">Data Analytics</span>
+<span class="skill">Machine Learning</span>
+<span class="skill">Deep Learning</span>
+<span class="skill">Artificial Intelligence</span>
+<span class="skill">Problem Solving</span>
+<span class="skill">Teamwork</span>
+<span class="skill">Time Management</span>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2 class="title">Experience</h2>
+
+<div class="card">
+
+<h3>Fresher</h3>
+
+<p>
+Currently seeking entry-level opportunities to gain practical experience
+in Data Analytics, Data Science, and Artificial Intelligence.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Strengths</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Quick Learner</h3>
+</div>
+
+<div class="card">
+<h3>Adaptable</h3>
+</div>
+
+<div class="card">
+<h3>Reliable & Responsible</h3>
+</div>
+
+<div class="card">
+<h3>Works Under Pressure</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact Me</h2>
+
+<p>📍 Kerala, India</p>
+
+<p>📞 +91 8075305171</p>
+
+<p>📧 sanaj2175@gmail.com</p>
+
+<p>
+🔗
+<a href="https://www.linkedin.com/in/sanaj-k-784422413"
+style="color:#ffd54f;text-decoration:none;">
+linkedin.com/in/sanaj-k-784422413
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2025 Sanaj K | Portfolio Website</p>
+
+</footer>
+
+</body>
+</html>
